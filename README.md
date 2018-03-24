@@ -1,6 +1,12 @@
-# Cash
+# Caradisiac
 
-Cash allow you to make convertion of currencies only with a command line
+**Build an api that get the list of cars with the higher rate and the higher volume (car boot)**
+
+The api
+
+* must listen port `9292`
+* must provide endpoint `/populate` to index records to Elasticsearch
+* must provide endpoint `/cars` that return list of cars with the higher car boot volume
 
 ## Prerequisites
 
@@ -22,10 +28,9 @@ Open a commander console at the project root and run the command :
 
 First of all launch elasticsearch
 
-In the project root folder.
-
-In a commmander console launch the server with :
-	node server.js
+In the project root folder :
+	In a commmander console launch the server with : "node server.js"
+	
 
 ### Usage:
 
@@ -49,4 +54,4 @@ In a browser use http://localhost:9292/populate/{request}
 
 ## Authors
 
-* **Yassine AZZOUT** - *Initial work* - [3-musketeers](https://github.com/92bondstreet/caradisiac)
+* **Yassine AZZOUT** - *Initial work* - [caradisiac](https://github.com/92bondstreet/caradisiac)
