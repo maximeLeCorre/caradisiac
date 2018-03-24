@@ -2,7 +2,7 @@
   "name": "caradisiac",
   "version": "1.0.0",
   "description": "Build an api that get the list of SUV with the higher rate and the higher volume (car boot)",
-  "main": "insertionElasticsearch.js",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },
