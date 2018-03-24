@@ -10,7 +10,7 @@ The api
 
 ## Prerequisites
 
-First of all if you need to have Node.js and elasticsearch on your computer
+First of all you need to have Node.js and elasticsearch on your computer
 
 * [Node.js](https://nodejs.org/en/)
 * [elasticsearch](https://www.elastic.co/fr/downloads/elasticsearch)
