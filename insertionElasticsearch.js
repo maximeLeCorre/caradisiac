@@ -17,7 +17,7 @@ function insertionElasticSearch(){
 	//Foreach item in the car.json we add it to the bulk request
     for(var i = 0; i < json.length; i++){    
         request.body.push({ index:  { _index: 'caradisiac', _type: 'car', _id: i } });
-        request.body.push({  doc : json[i]} );
+        request.body.push( json[i] );
     }
     elasticsearchClient.bulk(request);
 }
