@@ -40,7 +40,7 @@ In a browser use http://localhost:9292/cars to get a json which contains the 10 
 
 In a browser use http://localhost:9292/populate/{request}
 	
-	the request must be the follwing :
+	the request must be the following :
 		{
 			"brand": "xxx",
 			"image": "xxx",
