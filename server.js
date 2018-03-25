@@ -58,13 +58,7 @@ app.get('/cars', function(req, res) {
 		body: {
         "from" : 0, "size" : 10, 
       	"query": {
-      		"bool": {
-				"must": {
-					"exists": {
-						"field": "volume"
-					}
-				}
-			} 
+      		match_all:{} 
       	},
           "sort": [
                 { "volume":   { "order": "desc" }}
